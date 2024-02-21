@@ -1,7 +1,4 @@
 
-{
-    public class AIModel : IDisposable
-    {
         private const int IMAGE_SIZE = 640;
         private const int NUM_DETECTIONS = 8400; // Standard for OnnxV8 model (Shape: 1x5x8400)
 
