@@ -1,18 +1,4 @@
-using AimmyWPF.Class;
-using KdTree;
-using KdTree.Math;
-using Microsoft.ML.OnnxRuntime;
-using Microsoft.ML.OnnxRuntime.Tensors;
-using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Drawing.Imaging;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
-namespace AimmyAimbot
 {
     public class AIModel : IDisposable
     {
